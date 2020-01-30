@@ -66,6 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: {{ site.color.primary-fg }}
     background-color: {{ site.color.primary-bg }};
 }
 
@@ -137,9 +138,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: {{ site.color.primary-bg }};
+    color: {{ site.color.primary-fg }};
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-fg }};
+    background-color: {{ site.color.primary-bg }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
