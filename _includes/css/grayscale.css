@@ -66,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: {{ site.color.primary-bg }};
 }
 
 .navbar-custom .navbar-brand {
@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: {{ site.color.primary-fg }};
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -123,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
+        background-color: {{ site.color.primary-bg }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -137,9 +137,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: {{ site.color.primary-bg }};
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background-color: {{ site.color.primary-fg }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -255,9 +255,9 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: {{ site.color.primary-bg }};
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background-color: {{ site.color.primary-fg }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -304,7 +304,7 @@ a:focus {
 .btn-default:focus {
     border: 1px solid {{ site.color.links }};
     outline: 0;
-    color: {{ site.color.primary-dark }};
+    color: {{ site.color.primary-bg }};
     background-color: {{ site.color.links }};
 }
 
