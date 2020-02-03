@@ -1,8 +1,12 @@
 # Site settings
-title: TACOS 2020
+title: "TACOS 2020"
 email: tacos2020@linguistik.computer
 url: https://2020.linguistik.computer
-description: "19. – 21. Jun. 2020 in Heidelberg"
+description: "19. – 21. June 2020 in Heidelberg"
+
+en:
+  title: "TACOS 2020"
+  description: "19th – 21st June 2020 in Heidelberg"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -11,7 +15,7 @@ color:
   links: '#800000'
 
 # Footer settings
-footer: TaCoS 2020 Koordination
+footer: TaCoS Koordination
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
